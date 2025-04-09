@@ -7,83 +7,91 @@
     <link rel="shortcut icon" href="favicon.ico"> 
 
     <style>
-        .menu {
-            position: absolute;
-            top: 10px;
-            right: 20px;
+        body {
+            margin: 0;
             font-family: Arial, sans-serif;
-            font-size: 16px;
+            background-color: white;
+        }
+
+        /* Cabeçalho */
+        .topo {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 30px;
+        }
+
+        .logo {
+            height: 80px;
         }
 
         .menu a {
             text-decoration: none;
             color: #4b0082;
-            margin-left: 15px;
+            margin-left: 20px;
+            font-weight: bold;
         }
 
         .menu a:hover {
             text-decoration: underline;
+        }
+
+        /* Conteúdo */
+        .conteudo {
+            padding: 20px 30px;
         }
     </style>
 </head>
 
 <body>
 
-    <!-- MENU NO TOPO DIREITO -->
-    <div class="menu">
-        <a href="index.html">HOME</a> |
-        <a href="contato.html">CONTATO</a> |
-        <a href="sobre.html">SOBRE</a>
+    <!-- TOPO COM LOGO E MENU -->
+    <div class="topo">
+        <img class="logo" src="Logo.jpg" alt="Logo do IFSP">
+        <div class="menu">
+            <a href="index.html">HOME</a> |
+            <a href="contato.html">CONTATO</a> |
+            <a href="sobre.html">SOBRE</a>
+        </div>
     </div>
 
-    <!-- LOGO -->
-    <img src="Logo.jpg" alt="Logo do IFSP">
+    <!-- CONTEÚDO PRINCIPAL -->
+    <div class="conteudo">
+        <h3><strong>Cursos</strong></h3>
+        <ul>
+            <li><a href="#">Análise e Desenvolvimento de Sistemas</a></li>
+            <li><a href="#">Engenharia de Produção</a></li>
+            <li><a href="#">Gestão em Tecnologia da Informação</a></li>
+            <li><a href="#">Letras</a></li>
+            <li><a href="#">Gestão Pública</a></li>
+        </ul>
 
-    <!-- CURSOS -->
-    <br/>
-    <h3><strong>Cursos</strong></h3>
-    <ul>
-        <li><a href="#">Análise e Desenvolvimento de Sistemas</a></li>
-        <li><a href="#">Engenharia de Produção</a></li>
-        <li><a href="#">Gestão em Tecnologia da Informação</a></li>
-        <li><a href="#">Letras</a></li>
-        <li><a href="#">Gestão Pública</a></li>
-    </ul>
+        <h3><strong>Eventos</strong></h3>
+        <img src="SEJA_RARO.jpg" width="450px" alt="Painel convidativo para o evento Seja Raro">
+        <p>Aniversário do IFSP - Pirituba - Palestra Augusto Aielo</p>
 
-    <!-- EVENTOS -->
-    <br/>
-    <h3><strong>Eventos</strong></h3>
-    <img src="SEJA_RARO.jpg" width="450px" alt="Painel convidativo para o evento Seja Raro">
-    <br/>
-    <p>Aniversário do IFSP - Pirituba - Palestra Augusto Aielo</p>
+        <h1><strong>Sobre a Biblioteca</strong></h1>
+        <img src="library.jpeg">
 
-    <!-- BIBLIOTECA -->
-    <h1><strong>Sobre a Biblioteca</strong></h1>
-    <img src="library.jpeg">
+        <h1><strong>Conheça os novos títulos disponíveis na nossa biblioteca</strong></h1>
+        <p><strong>Publicado: 02 de abril de 2025</strong></p>
 
-    <br/>
-    <h1><strong>Conheça os novos títulos disponíveis na nossa biblioteca</strong></h1>
-    <p><strong>Publicado: 02 de abril de 2025</strong></p>
+        <h1><strong>Conheça o Suap</strong></h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yVbOcB1ryh0"
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    <!-- SUAP -->
-    <h1><strong>Conheça o Suap</strong></h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/yVbOcB1ryh0"
-    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><br>
+        <img src="MoveTop.png" width="50px">
+        <a href="https://www.facebook.com/ifsppirituba" target="_blank">
+            <img src="facebook.png" alt="logo facebook" width="50px">
+        </a>
+    </div>
 
-    <br>
-    <img src="ytb.png" alt="vídeo youtube" width="100px">
-
-    <br>
-    <img src="MoveTop.png" width="50px">
-    <a href="https://www.facebook.com/ifsppirituba" target="_blank">
-        <img src="facebook.png" alt="logo facebook" width="50px">
-    </a>
+    <!-- RODAPÉ -->
+    <footer>
+        <br>
+        <em><strong>IFSP Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</strong></em>
+    </footer>
 
 </body>
-
-<!-- RODAPÉ -->
-<footer>
-    <br/>
-    <em><strong>IFSP Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</strong></em>
-</footer>
 </html>
