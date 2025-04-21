@@ -1,1 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            height: 100px;
+        }
+
+ 
+        nav {
+            margin-left: 10px;
+            text-decoration: none;
+            color: #0000cc;
+            font-weight: bold;
+        }
+
+        h1 {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #333;
+        }
+
+
+
+    section{
+        border: 1px solid black;
+        padding: 5px;
+        width: 150%%;
+        border-radius: 2px; /* cantos arredondados */
+        background-color: #f0f0f0;
+        margin: 2px;
+    }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src=Logo.jpg>
+    <nav>
+        <a href="index.html">HOME</a> |
+        <a href="eventos.html">EVENTOS</a> |
+        <a href="contato.html">CONTATO</a> |
+        <a href="sobre.html">SOBRE</a> |
+        <a href="entrar">ENTRAR</a>
+    </nav>
+
+</header> 
+
+<h1><strong>Inscreva-se</strong></h1>
+
+
+<section> 
+            <form> 
+    <p> Evento </p>
+     <select name="evt" id="ev1">
+     <option value="selecione"> Selecione </option>
+     <option value="Voe sem Asas"> Voe sem Asas</option>
+   <option value="Festa Junina"> Festa Junina </option>
+   <option value="Semana de Tecnologia"> Semana de Tecnologia  </option>
+     </select>
+            </form>   
+           </section>
+
+
+<section>
+      <h4> Informações de Acesso </h4>
+
+      <label for="us">Usuário</label>
+      <input type="text" name="usuario" id="us">
+      <br>
+      <br>
+      <label for="psw">Senha</label>
+      <input type="password" name="senha" id="psw">
+<br>
+<br>
+         <label for="pswc">Confirme a senha</label>
+      <input type="password" name="senhac" id="pswc"></section>
+      
+      <section>
+      
+      <h4> Informações Pessoais </h4>
+
+      <label for="nmc">Nome Completo </label>
+      <input type="text" name="namec" id="nmc">
+      <br>
+      <br>
+
+      <label for="email ">E-mail </label>
+      <input type="text" name="emc" id="email">
+      <br>
+       <br>
+      <label for="tel1">Celular </label>
+      <input type="text" name="cel" id="tel1">
+      (99) 99999-9999
+      <br>
+      <br>
+      <section> 
+  Sexo 
+
+
+  <form> 
+    <input type="radio" value="Masculino" id="msc1" name="msc">
+    <label for="pmsc1"> Masculino</label>
+
+    <input type="radio" value="Feminino" id="fem1" name="fem">    <!-- name igual - mesmo grupo - pode escolher apenas uma.-->
+    <label for="fem1"> Feminino </label>
+
+      <input type="radio" value="Outro" id="ot1" name ="outro">
+      <label for ="ot1"> Outro </label>
+   </form>
+</section>
+<br> 
+
+      <form> 
+<label for="dat">Data de Nascimento</label>
+<input type="date" id="dat" name="data">
+    </form>
+
+<br>
+
+<form>
+    <label for="cor">Cor favorita</label>
+    <input type="color" id="cor" name="cor">
+    <br>
+   
+  </form>
+
+  
+<br> 
+
+
+    <label for="prf">Perfil no Github</label>
+    <input type="text" name="perfil" id="prf">
+<br> <br>
+</section>
+
+<br> <br> 
+<input type="submit" value="Inscrever">
+<input type="submit" value="Limpar">
+
+<br>
+<br>
+<br>
+
+
+<a href="https://www.facebook.com/ifsppirituba" target="_blank">
+    <img src="facebook.png" alt="logo facebook" width="50px">
+  </a>
+
+<footer>
+    <br>
+    <p> <strong>IFSP Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</strong></p>
+  </footer>
+
 
