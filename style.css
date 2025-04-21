@@ -14,10 +14,9 @@
     }
 
          .logo {
-       width: 200px;
-       height: auto; /* Mantém proporção */
-}
+            height: 100px;
         }
+
 
     .menu {
       margin-left: auto;
