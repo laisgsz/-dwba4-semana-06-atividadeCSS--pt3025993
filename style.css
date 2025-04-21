@@ -1,0 +1,35 @@
+<style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+    }
+
+    /* Cabeçalho */
+    .topo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+    }
+
+    .logo {
+      height: 80px;
+    }
+
+    .menu {
+      margin-left: auto;
+    }
+
+    .menu a {
+      text-decoration: underline;
+      color: #4b0082;
+      margin: 0 5px;
+      font-weight: bold;
+    }
+
+    /* Conteúdo */
+    .conteudo {
+      padding: 20px;
+    }
+  </style>
